@@ -10,7 +10,7 @@ public class PengulanganWhile {
         System.out.println("Start");
         int counter = 0;
 
-        while (ulangi.equals(1) || ulangi.equalsIgnoreCase("yes")){
+        while (ulangi.equals("1") || ulangi.equalsIgnoreCase("yes")){
             System.out.println("Apakah anda mau mengulang? (yes/no): ");
             String jawab = scanner.nextLine();
             counter++;
